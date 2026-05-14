@@ -1,4 +1,4 @@
-const domainUrl = $("#appUrl").val();
+const domainUrl = $("#appUrl").val().replace(/\/?$/, '/');
 const user_type = $("#user_type").val();
 
 $.ajaxSetup({
